@@ -1,11 +1,16 @@
+
+:root {
+  --lightgrey: #677897;
+}
+
+
 * {
-  background-color: blue;
   box-sizing:border-box;
   margin:0;
   padding:0;
 }
 
-img {
+.img {
   width: 50px;
   
 }
@@ -14,4 +19,6 @@ img {
   display: flex;
 }
 
-.sect
+.section{
+  display:flex;
+}
