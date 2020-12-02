@@ -17,8 +17,22 @@
 
 .roadmap{
   display: flex;
+  justify-content: space-around;
 }
 
 .section{
   display:flex;
+  justify-content: space-around;
 }
+
+.featured-schools{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.roadmap-section{
+  width: 200px;
+  
+}
+
