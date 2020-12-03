@@ -8,3 +8,19 @@ nav{
     list-style:none;
 }
 
+
+
+@media screen and (max-width:700px){
+    .links {
+        height: 0;
+        overflow: hidden;
+        transition: var(--transition);
+    }
+
+    .show-links {
+        height: 10rem;
+    }
+
+    
+
+}
